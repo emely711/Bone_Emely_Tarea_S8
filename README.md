@@ -47,23 +47,6 @@ try {
     return -1;
 }
 ```
----
-Retos adicionales implementados 
-Búsqueda por cédula: opción 5 del menú.
-Cédula duplicada: al registrar, se verifica si ya existe.
-Conteo por tipo: al mostrar registros aparece el total de estudiantes y docentes.
-Confirmación antes de eliminar: el sistema pide "s/n" antes de borrar.
-Clases separadas en paquete `academia`: cada clase en su propio archivo.
----
-Cómo compilar y ejecutar
-```bash
-# Desde la carpeta raíz del proyecto
-javac -d out src/academia/*.java
-
-# Ejecutar
-java -cp out academia.Main
-```
----
 Diagrama UML de clases
 ```
               ┌─────────────────────────────┐
